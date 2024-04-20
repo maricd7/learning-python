@@ -23,3 +23,15 @@
 # second = input("Enter second number: ")
 #
 # print(float(first) + float(second))
+
+
+#STRINGS LESSON
+
+course = 'Python for beginners'
+print(course.upper())
+
+print(course.find('y'))
+
+print(course.replace('for', '4'))
+
+print('Python' in course)
