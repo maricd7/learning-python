@@ -27,11 +27,38 @@
 
 #STRINGS LESSON
 
-course = 'Python for beginners'
-print(course.upper())
+# course = 'Python for beginners'
+# print(course.upper())
+#
+# print(course.find('y'))
+#
+# print(course.replace('for', '4'))
+#
+# print('Python' in course)
 
-print(course.find('y'))
+#ARITHMETIC OPERATIONS
 
-print(course.replace('for', '4'))
+# print(10+3)
+# x=10
+# x+=3
+#
+# print(x)
 
-print('Python' in course)
+#OPERATOR PRECEDENCE
+
+# x =(10+3)*2
+# print(x)
+
+#COMPARISON OPERATORS
+# x = 3 > 2
+# print(x)
+#
+# x = 3 == 2
+#
+# print(x)
+
+#LOGICAL OPERATORS
+price = 5
+print(price>10 and price<30)
+print(price>10 or price<30)
+print(not price>10)
