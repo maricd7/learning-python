@@ -73,13 +73,46 @@
 
 #WEIGHT CONVERTER EXERCISE
 
-weight = int(input("Enter your weight: "))
+# weight = int(input("Enter your weight: "))
+#
+# unit = input("Enter your unit (K)g or (L)bs: ")
+#
+# if unit.upper()=='K':
+#     print('Your weight in lbs' + str(float(weight*2.25)))
+# elif unit.upper()=='L':
+#     print('Your weight in kg' + str(float(weight*0.45)))
+# else:
+#     print('Invalid unit input')
 
-unit = input("Enter your unit (K)g or (L)bs: ")
 
-if unit.upper()=='K':
-    print('Your weight in lbs' + str(float(weight*2.25)))
-elif unit.upper()=='L':
-    print('Your weight in kg' + str(float(weight*0.45)))
-else:
-    print('Invalid unit input')
+#WHILE LOOPS
+# i = 1
+# while i <= 5:
+#     print(i)
+#     i += 1
+
+#LISTS
+# names = ['John', 'Doe', 'Jane']
+# names[0] = 'Jon'
+# print(names[0])
+# print(names[0:2])
+
+#LIST METHODS
+
+numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+numbers.append(11)
+
+print(numbers)
+
+numbers.insert(0, -1)
+
+print(numbers)
+
+numbers.remove(3)
+
+print(numbers)
+
+# numbers.clear()
+print(numbers)
+
+print(1 in numbers)
