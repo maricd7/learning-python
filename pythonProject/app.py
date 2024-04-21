@@ -58,7 +58,28 @@
 # print(x)
 
 #LOGICAL OPERATORS
-price = 5
-print(price>10 and price<30)
-print(price>10 or price<30)
-print(not price>10)
+# price = 5
+# print(price>10 and price<30)
+# print(price>10 or price<30)
+# print(not price>10)
+
+#IF OPERATORS
+# temperature = 25
+# if(temperature>10):
+#     print("Temperature is greater than 10")
+# elif(temperature>20):
+#     print("Temperature is greater than 20")
+
+
+#WEIGHT CONVERTER EXERCISE
+
+weight = int(input("Enter your weight: "))
+
+unit = input("Enter your unit (K)g or (L)bs: ")
+
+if unit.upper()=='K':
+    print('Your weight in lbs' + str(float(weight*2.25)))
+elif unit.upper()=='L':
+    print('Your weight in kg' + str(float(weight*0.45)))
+else:
+    print('Invalid unit input')
